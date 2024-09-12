@@ -1,0 +1,345 @@
+.container {
+    background-color: rgb(145 195 250);
+    height: auto;
+    padding: 5rem;
+    position: relative;
+}
+
+.users {
+    width: 90vw;
+    /* height: 80vh; */
+    position: relative;
+    margin: auto;
+    top: 10%;
+    box-shadow: 0px 0px 20px grey;
+}
+
+.header {
+    height: 15%;
+    background: rgb(255 255 255);
+    box-shadow: 0px 0px 1px gray;
+    display: flex;
+}
+
+.section {
+    display: flex;
+    height: 85%;
+}
+
+.navbar {
+    max-width: 100px;
+    min-width: 100px;
+    width: 10%;
+    height: 100%;
+    background-color: rgb(0 65 220);
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    height: 100%;
+    width: 90%;
+    /* background-color: rgb(240 245 250); */
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+    background: url('../assets/pngtree-simple-and-atmospheric-hand-drawn-heart-shaped-line-hospital-logo-png-image_4241033.png') center center no-repeat wheat;
+    background-size: cover;
+}
+
+.title {
+    margin: auto;
+    color: #3838ec;
+    font-weight: 600;
+}
+
+.full-name {
+    color: #3838ec;
+    font-weight: 600;
+    margin: auto 0;
+}
+
+.logout .logout-btn {
+    margin: 25px;
+    border-radius: 10px;
+    padding: 10px 30px;
+    border: none;
+    background: rgb(48, 101, 225);
+    color: white;
+    display: flex;
+    font-weight: 700;
+    text-decoration: none;
+    outline: none;
+}
+
+.overview {
+    margin: 30px auto 0;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    text-shadow: 2px 2px 2px #8a5858;
+}
+
+.list {
+    margin: 20px auto;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    text-shadow: 2px 2px 2px #8a5858;
+}
+
+.overview span {
+    border-radius: 2px;
+    background: rgb(70, 159, 238);
+    opacity: 0.8;
+}
+
+.content {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.search-bar {
+    margin-bottom: 20px;
+}
+
+.search-bar input {
+    padding: 10px;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.patients-header,
+.patient-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.header-item {
+    font-weight: bold;
+}
+
+.row-item {
+    flex: 1;
+    text-align: left;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.grid-item {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.toggle_view {
+    margin-left: 10px;
+    height: 35px;
+    width: 90px;
+    border: none;
+    background: #5151e4;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+
+.acontainer {
+    margin: 0;
+    top: 0;
+    padding: 0;
+    bottom: 0;
+    display: flex;
+    position: relative;
+}
+
+.acontent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 65%;
+    height: 500px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    z-index: 1;
+    padding: 40px 0;
+    display: flex;
+}
+
+.abg-left {
+    width: 60%;
+    height: auto;
+    min-height: 100vh;
+    background: rgb(250 103 147);
+}
+
+.abg-right {
+    width: 40%;
+    height: auto;
+    min-height: 100vh;
+    background: rgb(55 75 125);
+}
+
+.aleft {
+    height: auto;
+    min-height: 100vh;
+    background: rgb(55 75 125);
+    position: relative;
+    border-bottom-right-radius: 90px 300px;
+}
+
+.aright {
+    height: auto;
+    min-height: 100vh;
+    background: rgb(250 103 147);
+    border-top-left-radius: 90px 300px;
+}
+
+.alogo-bottom {
+    height: 60px;
+    width: 60px;
+    background: url(/src/assets/image.apng) no-repeat;
+    background-size: cover;
+    bottom: 2rem;
+    left: 5%;
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.a8;
+}
+
+.acontent-left {
+    width: 50%;
+    margin: -40px 0;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background: rgb(240 245 255);
+}
+
+.acontent-right {
+    width: 50%;
+    margin: -40px 0;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    background: #009ec4;
+}
+
+.acontent-left .acontent-img {
+    background: url("../assets/745cafdd6323f07e2fdbec8d0463c1d50ca472eb-2200x1468.jpg") center center no-repeat;
+    background-size: cover;
+    height: 250px;
+    width: 250px;
+    margin: auto auto;
+    border-radius: 40%;
+}
+
+.acontent-infor-left {
+    display: flex;
+    flex-direction: column;
+    border-bottom-right-radius: 60px;
+    min-height: 100%;
+    background: #009ec4;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.acontent-infor-right {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background: rgb(240 245 255);
+    position: relative;
+    border-top-left-radius: 60px;
+
+}
+
+.aform-input {
+    width: 250px;
+    height: 400px;
+    margin: auto;
+    border-radius: 30px;
+    background-color: rgb(245 245 245);
+    box-shadow: 0px 0px 10px 2px #c3c3c3;
+}
+
+.aform-input .acontent-form {
+    width: 250px;
+    height: 350px;
+    margin: 50px 0 0 0;
+    border-radius: 30px;
+    background-color: rgb(255 255 255);
+    box-shadow: 0px 0px 10px #c1c1c1;
+}
+
+.asign {
+    position: absolute;
+    margin: 15px 25px;
+}
+
+.afull-name {
+    margin: 0 25px 20px;
+}
+
+.afull-name:first-child {
+    padding-top: 30px;
+}
+
+.afull-name label {
+    color: rgb(53 71 197);
+    font-weight: 600;
+}
+
+.ainput {
+    font-size: 15px;
+    border: none;
+    outline: none;
+    padding: 5px 0;
+}
+
+.abtn-signup {
+    display: flex;
+    padding: 7px 77px;
+    margin: 0 auto;
+    background-color: rgb(70 110 255);
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-weight: 500;
+}
+
+.abtn-signup:hover {
+    display: flex;
+    padding: 7px 77px;
+    margin: 0 auto;
+    background-color: rgb(70 110 255);
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+.ahref {
+    display: flex;
+    justify-content: center;
+    color: rgb(235 124 164);
+    text-decoration: none;
+}
